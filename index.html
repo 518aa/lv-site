@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title data-i18n="meta.title">lv — ロック画面でも録れる、証拠保全レコーダー</title>
+  <meta name="description" data-i18n="meta.description" content="音量キー・シェイク・ユーザー補助でいつでも録音/録画開始。パスワード保護付き。Android 7+対応。" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/img/icon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <meta property="og:title" content="lv — 証拠保全レコーダー" />
+  <meta property="og:description" content="ロック画面・バックグラウンドでも1秒以内に録音開始。Android 7+対応。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/icon.svg" />
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="site-nav">
+  <div class="container">
+    <a href="#top" class="brand">
+      <img src="assets/img/icon.svg" alt="lv" />
+      <span>lv</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features" data-i18n="nav.features">機能</a>
+      <a href="#screens" data-i18n="nav.screens">画面</a>
+      <a href="#pricing" data-i18n="nav.pricing">価格</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </div>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-lang-switch="ja">JP</button>
+      <button data-lang-switch="en">EN</button>
+      <button data-lang-switch="zh">中</button>
+    </div>
+    <a href="#download" class="nav-cta" data-i18n="nav.download">ダウンロード</a>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge" data-i18n="hero.badge">v1.0 · Android 7+</div>
+      <h1 data-i18n="hero.title">ロック画面でも、もう一台の録音を。</h1>
+      <p data-i18n="hero.subtitle">音量キー・シェイク・ユーザー補助キーで、待ち時間ゼロで録音/録画開始。証拠保全のための自己防衛ツール。</p>
+      <div>
+        <a href="#download" class="hero-cta" data-download="public/app-release.apk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span data-i18n="hero.cta">無料でダウンロード</span>
+        </a>
+        <small class="hero-cta-sub" data-i18n="hero.cta.sub">APK直接 · 3.0MB · 試用回数つき</small>
+      </div>
+      <p style="margin-top: 24px; font-size: 13px; color: var(--text-soft);">
+        <span data-i18n="hero.alt">別のインストール方法</span>:
+        <a href="#" style="color: var(--text-muted); border-bottom: 1px dotted var(--border-strong);">APKPure</a> ·
+        <a href="#" style="color: var(--text-muted); border-bottom: 1px dotted var(--border-strong);">F-Droid (準備中)</a>
+      </p>
+    </div>
+
+    <div class="hero-visual">
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <img src="assets/img/screenshots/hero.png" alt="lv app — main screen" loading="eager" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FEATURES ========== -->
+<section id="features">
+  <div class="container">
+    <span class="eyebrow" data-i18n="features.eyebrow">機能</span>
+    <h2 class="section-title" data-i18n="features.title">「録りたい瞬間」を絶対逃さない設計</h2>
+    <p class="section-sub" data-i18n="features.subtitle">画面を見なくても、片手ですぐに録れる。残す証拠の質に直結する6つの機能。</p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3 data-i18n="f1.title">ロック画面・バックグラウンドでも録音</h3>
+        <p data-i18n="f1.desc">音量+の2回押しやユーザー補助ショートカットで、画面ロック中でも即座に録音開始。取り逃しゼロ。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎛️</div>
+        <h3 data-i18n="f2.title">音量キー / シェイク / イヤホン</h3>
+        <p data-i18n="f2.desc">物理ボタン、シェイク、ヘッドセットのセンターボタン、Bluetooth再生キー — 好みの発火方法を選べます。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔐</div>
+        <h3 data-i18n="f3.title">パスワード保護</h3>
+        <p data-i18n="f3.desc">アプリ起動とファイル閲覧にパスワード必須。失敗回数でロックアウト。端末を他人に渡しても安全。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎥</div>
+        <h3 data-i18n="f4.title">音声 + 動画の二刀流</h3>
+        <p data-i18n="f4.desc">CameraX で高画質録画。前面 / 背面カメラ切替。音声だけ録りたい時はマイクだけ起動。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📁</div>
+        <h3 data-i18n="f5.title">証拠保全に強いファイル形式</h3>
+        <p data-i18n="f5.desc">端末内のプライベート領域に保存、共有は明示的に。タイムスタンプ込み、SDカードに出して保全可能。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">∞</div>
+        <h3 data-i18n="f6.title">一生に一度の買い切り</h3>
+        <p data-i18n="f6.desc">無料試用 → 19.8 USDT（3チェーン対応）で永久ロック解除。再課金なし、サブスクなし。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GALLERY ========== -->
+<section id="screens" style="background: var(--bg-soft);">
+  <div class="container">
+    <span class="eyebrow" data-i18n="screens.eyebrow">画面</span>
+    <h2 class="section-title" data-i18n="screens.title">シンプルな操作と、わかる安心</h2>
+
+    <div class="gallery" data-gallery='[
+      {"src":"assets/img/screenshots/hero.png","label":"メイン画面","sub":"録音 / 録画 / 設定 / ファイル"},
+      {"src":"assets/img/screenshots/settings.png","label":"物理キー設定","sub":"音量±、ヘッドセット、カメラキー"},
+      {"src":"assets/img/screenshots/locked.png","label":"ロック画面","sub":"バックグラウンドでも作動"},
+      {"src":"assets/img/screenshots/password.png","label":"パスワード保護","sub":"アプリ起動 / ファイル閲覧"}
+    ]'>
+      <div class="gallery-display">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <img data-gallery-main src="assets/img/screenshots/hero.png" alt="screenshot" />
+          </div>
+        </div>
+      </div>
+      <div class="gallery-thumbs">
+        <button class="thumb active" data-gallery-dot="0">
+          <img src="assets/img/screenshots/hero.png" alt="" />
+          <div class="label">メイン画面<small>録音 / 録画 / 設定 / ファイル</small></div>
+        </button>
+        <button class="thumb" data-gallery-dot="1">
+          <img src="assets/img/screenshots/settings.png" alt="" />
+          <div class="label">物理キー設定<small>音量±、ヘッドセット、カメラキー</small></div>
+        </button>
+        <button class="thumb" data-gallery-dot="2">
+          <img src="assets/img/screenshots/locked.png" alt="" />
+          <div class="label">ロック画面<small>バックグラウンドでも作動</small></div>
+        </button>
+        <button class="thumb" data-gallery-dot="3">
+          <img src="assets/img/screenshots/password.png" alt="" />
+          <div class="label">パスワード保護<small>アプリ起動 / ファイル閲覧</small></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== USE CASES ========== -->
+<section id="use">
+  <div class="container">
+    <h2 class="section-title" data-i18n="use.title">どんな場面で使えますか</h2>
+    <p class="section-sub" data-i18n="use.subtitle">本ツールは<strong>自己防衛・合法的証拠保全</strong>専用です。下記以外の用途は利用規約で禁止。</p>
+
+    <div class="use-grid">
+      <div class="use-card">
+        <h4 data-i18n="u1.title">商談・契約交渉</h4>
+        <p data-i18n="u1.desc">口約束だけで進みがちな交渉現場で、後日の議事録として。</p>
+      </div>
+      <div class="use-card">
+        <h4 data-i18n="u2.title">取材・インタビュー</h4>
+        <p data-i18n="u2.desc">取材相手の許諾を取り、録音で正確な記録を残す。</p>
+      </div>
+      <div class="use-card">
+        <h4 data-i18n="u3.title">被害届の添付資料</h4>
+        <p data-i18n="u3.desc">騒音・迷惑行為・セクハラなどの証拠を確実に押さえる。</p>
+      </div>
+      <div class="use-card">
+        <h4 data-i18n="u4.title">日常生活の記録</h4>
+        <p data-i18n="u4.desc">介護現場、通院時、学校面談など、第三者の同席が心強い場面。</p>
+      </div>
+    </div>
+
+    <div class="legal-callout">
+      <h3 data-i18n="legal.title">⚠ 本ツールの正しい使い方</h3>
+      <p data-i18n="legal.body">本ツールは<strong>自己防衛・合法的証拠保全</strong>専用です。商取引交渉、取材、被害届、日常の記録など、<strong>自分が録音していることを相手に明示できる場面</strong>でご利用ください。<br><br>他者を盗撮・盗録する行為は、利用規約および多くの国・地域の法令で禁じられています。違反によって生じた法的責任はすべて使用者に帰属し、開発者は一切責任を負いません。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING ========== -->
+<section id="pricing" style="background: var(--bg-soft);">
+  <div class="container">
+    <span class="eyebrow" data-i18n="pricing.eyebrow">価格</span>
+    <h2 class="section-title" data-i18n="pricing.title">試して、納得してから買う</h2>
+    <p class="section-sub" data-i18n="pricing.subtitle">最初に何回か無料で使えます。続けて使う場合に限り、永久ライセンス料をお支払いください。</p>
+
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="price-name" data-i18n="p1.name">無料試用</div>
+        <div class="price-amount" data-i18n="p1.price">¥0</div>
+        <div class="price-desc" data-i18n="p1.desc">アプリ起動直後から使えます</div>
+        <ul class="price-features">
+          <li data-i18n="p1.f1">音声 / 動画 録音が回数制限つき</li>
+          <li data-i18n="p1.f2">全機能（パスワード・ショートカット含む）が使い放題</li>
+          <li data-i18n="p1.f3">回数を使い切ると「永久ライセンス」に誘導</li>
+        </ul>
+        <a href="#download" class="price-cta" data-i18n="p1.cta" data-download="public/app-release.apk">ダウンロード</a>
+      </div>
+
+      <div class="price-card featured">
+        <div class="price-name" data-i18n="p2.name">永久ライセンス</div>
+        <div class="price-amount" data-i18n="p2.price">19.8 USDT</div>
+        <div class="price-desc" data-i18n="p2.desc">一回払いでずっと使えます</div>
+        <ul class="price-features">
+          <li data-i18n="p2.f1">回数制限なし、永久</li>
+          <li data-i18n="p2.f2">3チェーン（TRC20 / ERC20 / BEP20）対応</li>
+          <li data-i18n="p2.f3">支払い後10秒以内に自動反映</li>
+          <li data-i18n="p2.f4">将来のアップデートも追加課金なし</li>
+        </ul>
+        <span class="price-cta" data-i18n="p2.cta">アプリ内で購入</span>
+        <small class="price-cta-hint" data-i18n="p2.cta.hint">（アプリを開いて設定 → 購入状態から）</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section id="faq">
+  <div class="container">
+    <h2 class="section-title" data-i18n="faq.title">よくある質問</h2>
+
+    <div class="faq">
+      <details class="faq-item">
+        <summary data-i18n="q1.q">Google Play からインストールできますか？</summary>
+        <p data-i18n="q1.a">いいえ、本ツールは自己防衛目的のため Play ストアのガイドラインに一部合わず、現状は APK 直接配布のみです。apkpure 等のミラーを通じてインストールできます。</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="q2.q">「未知のソース」のインストール警告が出ますが大丈夫？</summary>
+        <p data-i18n="q2.a">はい、本APKはデバッグキーストアで署名された配布用ビルドです。中身はソースコード公開予定。自己責任でインストールいただければ、改竄のリスクはありません。</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="q3.q">音は自動で録れますか？常に聞き耳を立てる感じですか？</summary>
+        <p data-i18n="q3.a">いいえ。明示的にショートカット（音量+の2回押し等）を発火した瞬間にのみ録音が開始されます。常時監視・自動起動は一切ありません。</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="q4.q">USB ケーブルで PC にファイルを取り出せますか？</summary>
+        <p data-i18n="q4.a">はい、設定 → ファイルの「共有」メニューから、共通ディレクトリ（SDカードやDownloads）にコピーできます。</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="q5.q">録音データはネットに送信されますか？</summary>
+        <p data-i18n="q5.a">いいえ、本アプリはオフライン専用です。インターネット権限は将来のアップデート用通知受信のためだけ。録音データが外部に送信されることはありません。</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="q6.q">19.8 USDT の支払い後、反映されない場合は？</summary>
+        <p data-i18n="q6.a">アプリ内の「取引ハッシュ（TXID）」を手動入力することで即時検証できます。ハッシュなしでも数十秒で自動検出されます。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ========== DOWNLOAD CTA ========== -->
+<section id="download" style="padding-bottom: 0;">
+  <div class="final">
+    <h2 data-i18n="final.title">いますぐ、1分以内に録音を始められます</h2>
+    <p data-i18n="final.subtitle">ダウンロードして、設定から音量+2回押しを選ぶだけ。最初の数回は完全無料です。</p>
+    <a href="public/app-release.apk" class="hero-cta" data-download="public/app-release.apk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <span data-i18n="final.cta">lv をダウンロード</span>
+    </a>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div data-i18n="footer.copyright">© 2026 lv</div>
+    <div class="links">
+      <a href="#" data-i18n="legal.terms">利用規約</a>
+      <a href="#" data-i18n="legal.privacy">プライバシーポリシー</a>
+      <a href="mailto:hi@example.com" data-i18n="footer.contact">お問い合わせ</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
